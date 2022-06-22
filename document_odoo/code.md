@@ -9,5 +9,6 @@
 ## Action print report
 **self.env.ref để truy cập tới xml.id.action của report và lưu ý là modelname.aml.id.action**
 **report_action(self) là hàm có sẵn của odoo và overrite**
-    def print_so_report(self):
-        return self.env.ref('sale.action_report_saleorder').report_action(self)
+    
+    'def print_so_report(self):
+        return self.env.ref('sale.action_report_saleorder').report_action(self)'
