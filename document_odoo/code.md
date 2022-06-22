@@ -2,9 +2,9 @@
 ## Default_get in odoo
 Default_get là hàm default dữ liệu cho 1 field bất kỳ nào đó. 
 
-    `@api.model
+    @api.model
     def default_get(self, fields):
-        vals = super().default_get(fields)`
+        vals = super().default_get(fields)
 
 ## Action print report
 self.env.ref để truy cập tới xml.id.action của report và lưu ý là modelname.aml.id.action
