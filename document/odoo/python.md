@@ -32,3 +32,5 @@ QuangHai : HAGL
 VanToan : HANOI
 HoangDuc : VIETTEL
 ```
+
+## 2.Flush()
