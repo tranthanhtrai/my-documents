@@ -12,3 +12,21 @@ report_action(self) là hàm có sẵn của odoo và overwrite
     
     def print_so_report(self):
         return self.env.ref('sale.action_report_saleorder').report_action(self)
+## Inherit and Inherits
+    1. Inherit
+        - <sub> When you use _inherit and add new fields, those fields will be added inside inherited object. No other table will be created in database </sub>
+        <sub>For example I want to add one or more field(s) or I want to add/override method in sale.order then I will use:</sub>
+
+        ``` 
+            class sale_order(osv.Model):
+            _inherit = 'sale.order'
+            _columns = {
+                'my_field': fields.char('My New Field', size=50),
+            }
+
+            def my_new_method(self, cr, uid, ids, context=None):
+                ...
+                ...
+
+        ```
+

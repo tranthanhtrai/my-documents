@@ -18,6 +18,7 @@ kq = [625, 10000, 50625, 160000]
 
 ## 2. Zip()
 Looping through two list sumiltaneously
+**for list1, list2 in zip(list1, list2)**
 
 ```
 wizards = ['QuangHai','VanToan', 'HoangDuc']
