@@ -15,3 +15,19 @@ ketqua = map(binhphuong, number)
 print(list(ketqua))
 kq = [625, 10000, 50625, 160000]
 ```
+
+## 2. Zip()
+Looping through two list sumiltaneously
+
+```
+wizards = ['QuangHai','VanToan', 'HoangDuc']
+clubs = ['HAGL','HANOI','VIETTEL']
+
+for wizards, clubs in zip(wizards,clubs):
+    print(f'{wizards} : {clubs}')
+
+
+QuangHai : HAGL
+VanToan : HANOI
+HoangDuc : VIETTEL
+```
