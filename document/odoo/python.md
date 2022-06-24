@@ -2,6 +2,7 @@
 ## 1. Map()
 
 Hàm map() tích hợp sẵn trong Python có tác dụng duyệt tất cả các phần tử của một iterable (list, tuple, dictionary...) qua một hàm cho trước và trả về một list kết quả sau khi thực thi.
+
     map(function, iterable, ...)
      - function: Hàm thực thi cho từng phần tử trong iterable.
      - iterable: một list, tuple, dictionary... muốn duyệt.
